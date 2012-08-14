@@ -125,6 +125,22 @@
     STAssertTrue(found, nil);
 }
 
+- (void)testGiversAreReturnedInAlphabeticalOrder {
+    MHPerson *person1 = [[MHPerson alloc] initWithFirst: @"Adam" andLastName: @"Arlington"];
+    MHPerson *person2 = [[MHPerson alloc] initWithFirst: @"Bob" andLastName: @"Arlington"];
+    MHPerson *person3 = [[MHPerson alloc] initWithFirst: @"Askara" andLastName: @"Barnes"];
+    MHPerson *person4 = [[MHPerson alloc] initWithFirst: @"Billy" andLastName: @"Barnes"];
+    MHPerson *person5 = [[MHPerson alloc] initWithFirst: @"Aaron" andLastName: @"Chung"];
+    
+    MHGenerator *testObject = [[MHGenerator alloc] init];
+    
+    NSArray *people = @[person3, person2, person4, person1, person5];
+    NSArray *expectedGivers = @[person5, person3, person2, person1, person4];
+    NSArray *assignments = [testObject createAssignmentsForPeople: people];
+    NSArray *givers = [self giversFromAssignments:assignments];
+    STAssertTrue([expectedGivers isEqualToArray:givers], nil);
+}
+
 - (NSArray *)giversFromAssignments: (NSArray *)assignments {
     NSMutableArray *givers = [NSMutableArray array];
     for (MHAssignment *assignment in assignments) {
