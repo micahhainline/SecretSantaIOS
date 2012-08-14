@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AB91CD415DA8EDA00DFFA92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB91CD315DA8EDA00DFFA92 /* UIKit.framework */; };
+		5AB91CD615DA8EDA00DFFA92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB91CD515DA8EDA00DFFA92 /* Foundation.framework */; };
+		5AB91CD815DA8EDA00DFFA92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB91CD715DA8EDA00DFFA92 /* CoreGraphics.framework */; };
+		5AB91CDE15DA8EDA00DFFA92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AB91CDC15DA8EDA00DFFA92 /* InfoPlist.strings */; };
+		5AB91CE015DA8EDA00DFFA92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB91CDF15DA8EDA00DFFA92 /* main.m */; };
+		5AB91CE415DA8EDA00DFFA92 /* MHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB91CE315DA8EDA00DFFA92 /* MHAppDelegate.m */; };
+		5AB91CE715DA8EDA00DFFA92 /* MHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB91CE615DA8EDA00DFFA92 /* MHViewController.m */; };
+		5AB91CF215DA8EDA00DFFA92 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB91CF115DA8EDA00DFFA92 /* SenTestingKit.framework */; };
+		5AB91CF315DA8EDA00DFFA92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB91CD315DA8EDA00DFFA92 /* UIKit.framework */; };
+		5AB91CF415DA8EDA00DFFA92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB91CD515DA8EDA00DFFA92 /* Foundation.framework */; };
+		5AB91CFC15DA8EDA00DFFA92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AB91CFA15DA8EDA00DFFA92 /* InfoPlist.strings */; };
+		5AB91D0A15DA917500DFFA92 /* MHGeneratorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB91D0915DA917500DFFA92 /* MHGeneratorTest.m */; };
+		5AB91D0D15DA93CE00DFFA92 /* MHGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB91D0C15DA93CE00DFFA92 /* MHGenerator.m */; };
+		5AB91D1015DA944B00DFFA92 /* MHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB91D0F15DA944B00DFFA92 /* MHPerson.m */; };
+		5AB91D1315DA94DA00DFFA92 /* MHAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB91D1215DA94DA00DFFA92 /* MHAssignment.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AB91CF515DA8EDA00DFFA92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AB91CC615DA8EDA00DFFA92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AB91CCE15DA8EDA00DFFA92;
+			remoteInfo = SecretSantaIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AB91CCF15DA8EDA00DFFA92 /* SecretSantaIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretSantaIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB91CD315DA8EDA00DFFA92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5AB91CD515DA8EDA00DFFA92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5AB91CD715DA8EDA00DFFA92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5AB91CDB15DA8EDA00DFFA92 /* SecretSantaIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecretSantaIOS-Info.plist"; sourceTree = "<group>"; };
+		5AB91CDD15DA8EDA00DFFA92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AB91CDF15DA8EDA00DFFA92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AB91CE115DA8EDA00DFFA92 /* SecretSantaIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecretSantaIOS-Prefix.pch"; sourceTree = "<group>"; };
+		5AB91CE215DA8EDA00DFFA92 /* MHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHAppDelegate.h; sourceTree = "<group>"; };
+		5AB91CE315DA8EDA00DFFA92 /* MHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHAppDelegate.m; sourceTree = "<group>"; };
+		5AB91CE515DA8EDA00DFFA92 /* MHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHViewController.h; sourceTree = "<group>"; };
+		5AB91CE615DA8EDA00DFFA92 /* MHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHViewController.m; sourceTree = "<group>"; };
+		5AB91CF015DA8EDA00DFFA92 /* SecretSantaIOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretSantaIOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB91CF115DA8EDA00DFFA92 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5AB91CF915DA8EDA00DFFA92 /* SecretSantaIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecretSantaIOSTests-Info.plist"; sourceTree = "<group>"; };
+		5AB91CFB15DA8EDA00DFFA92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AB91D0915DA917500DFFA92 /* MHGeneratorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHGeneratorTest.m; sourceTree = "<group>"; };
+		5AB91D0B15DA93CE00DFFA92 /* MHGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHGenerator.h; sourceTree = "<group>"; };
+		5AB91D0C15DA93CE00DFFA92 /* MHGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHGenerator.m; sourceTree = "<group>"; };
+		5AB91D0E15DA944B00DFFA92 /* MHPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHPerson.h; sourceTree = "<group>"; };
+		5AB91D0F15DA944B00DFFA92 /* MHPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHPerson.m; sourceTree = "<group>"; };
+		5AB91D1115DA94DA00DFFA92 /* MHAssignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHAssignment.h; sourceTree = "<group>"; };
+		5AB91D1215DA94DA00DFFA92 /* MHAssignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHAssignment.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AB91CCC15DA8EDA00DFFA92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB91CD415DA8EDA00DFFA92 /* UIKit.framework in Frameworks */,
+				5AB91CD615DA8EDA00DFFA92 /* Foundation.framework in Frameworks */,
+				5AB91CD815DA8EDA00DFFA92 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB91CEC15DA8EDA00DFFA92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB91CF215DA8EDA00DFFA92 /* SenTestingKit.framework in Frameworks */,
+				5AB91CF315DA8EDA00DFFA92 /* UIKit.framework in Frameworks */,
+				5AB91CF415DA8EDA00DFFA92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AB91CC415DA8EDA00DFFA92 = {
+			isa = PBXGroup;
+			children = (
+				5AB91CD915DA8EDA00DFFA92 /* SecretSantaIOS */,
+				5AB91CF715DA8EDA00DFFA92 /* SecretSantaIOSTests */,
+				5AB91CD215DA8EDA00DFFA92 /* Frameworks */,
+				5AB91CD015DA8EDA00DFFA92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AB91CD015DA8EDA00DFFA92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AB91CCF15DA8EDA00DFFA92 /* SecretSantaIOS.app */,
+				5AB91CF015DA8EDA00DFFA92 /* SecretSantaIOSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AB91CD215DA8EDA00DFFA92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AB91CD315DA8EDA00DFFA92 /* UIKit.framework */,
+				5AB91CD515DA8EDA00DFFA92 /* Foundation.framework */,
+				5AB91CD715DA8EDA00DFFA92 /* CoreGraphics.framework */,
+				5AB91CF115DA8EDA00DFFA92 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AB91CD915DA8EDA00DFFA92 /* SecretSantaIOS */ = {
+			isa = PBXGroup;
+			children = (
+				5AB91CE215DA8EDA00DFFA92 /* MHAppDelegate.h */,
+				5AB91CE315DA8EDA00DFFA92 /* MHAppDelegate.m */,
+				5AB91CE515DA8EDA00DFFA92 /* MHViewController.h */,
+				5AB91CE615DA8EDA00DFFA92 /* MHViewController.m */,
+				5AB91D0B15DA93CE00DFFA92 /* MHGenerator.h */,
+				5AB91D0C15DA93CE00DFFA92 /* MHGenerator.m */,
+				5AB91D0E15DA944B00DFFA92 /* MHPerson.h */,
+				5AB91D0F15DA944B00DFFA92 /* MHPerson.m */,
+				5AB91D1115DA94DA00DFFA92 /* MHAssignment.h */,
+				5AB91D1215DA94DA00DFFA92 /* MHAssignment.m */,
+				5AB91CDA15DA8EDA00DFFA92 /* Supporting Files */,
+			);
+			path = SecretSantaIOS;
+			sourceTree = "<group>";
+		};
+		5AB91CDA15DA8EDA00DFFA92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AB91CDB15DA8EDA00DFFA92 /* SecretSantaIOS-Info.plist */,
+				5AB91CDC15DA8EDA00DFFA92 /* InfoPlist.strings */,
+				5AB91CDF15DA8EDA00DFFA92 /* main.m */,
+				5AB91CE115DA8EDA00DFFA92 /* SecretSantaIOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AB91CF715DA8EDA00DFFA92 /* SecretSantaIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AB91D0915DA917500DFFA92 /* MHGeneratorTest.m */,
+				5AB91CF815DA8EDA00DFFA92 /* Supporting Files */,
+			);
+			path = SecretSantaIOSTests;
+			sourceTree = "<group>";
+		};
+		5AB91CF815DA8EDA00DFFA92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AB91CF915DA8EDA00DFFA92 /* SecretSantaIOSTests-Info.plist */,
+				5AB91CFA15DA8EDA00DFFA92 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AB91CCE15DA8EDA00DFFA92 /* SecretSantaIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB91D0215DA8EDA00DFFA92 /* Build configuration list for PBXNativeTarget "SecretSantaIOS" */;
+			buildPhases = (
+				5AB91CCB15DA8EDA00DFFA92 /* Sources */,
+				5AB91CCC15DA8EDA00DFFA92 /* Frameworks */,
+				5AB91CCD15DA8EDA00DFFA92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecretSantaIOS;
+			productName = SecretSantaIOS;
+			productReference = 5AB91CCF15DA8EDA00DFFA92 /* SecretSantaIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AB91CEF15DA8EDA00DFFA92 /* SecretSantaIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB91D0515DA8EDA00DFFA92 /* Build configuration list for PBXNativeTarget "SecretSantaIOSTests" */;
+			buildPhases = (
+				5AB91CEB15DA8EDA00DFFA92 /* Sources */,
+				5AB91CEC15DA8EDA00DFFA92 /* Frameworks */,
+				5AB91CED15DA8EDA00DFFA92 /* Resources */,
+				5AB91CEE15DA8EDA00DFFA92 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AB91CF615DA8EDA00DFFA92 /* PBXTargetDependency */,
+			);
+			name = SecretSantaIOSTests;
+			productName = SecretSantaIOSTests;
+			productReference = 5AB91CF015DA8EDA00DFFA92 /* SecretSantaIOSTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AB91CC615DA8EDA00DFFA92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MH;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Micah Hainline";
+			};
+			buildConfigurationList = 5AB91CC915DA8EDA00DFFA92 /* Build configuration list for PBXProject "SecretSantaIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5AB91CC415DA8EDA00DFFA92;
+			productRefGroup = 5AB91CD015DA8EDA00DFFA92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AB91CCE15DA8EDA00DFFA92 /* SecretSantaIOS */,
+				5AB91CEF15DA8EDA00DFFA92 /* SecretSantaIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AB91CCD15DA8EDA00DFFA92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB91CDE15DA8EDA00DFFA92 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB91CED15DA8EDA00DFFA92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB91CFC15DA8EDA00DFFA92 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AB91CEE15DA8EDA00DFFA92 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AB91CCB15DA8EDA00DFFA92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB91CE015DA8EDA00DFFA92 /* main.m in Sources */,
+				5AB91CE415DA8EDA00DFFA92 /* MHAppDelegate.m in Sources */,
+				5AB91CE715DA8EDA00DFFA92 /* MHViewController.m in Sources */,
+				5AB91D0D15DA93CE00DFFA92 /* MHGenerator.m in Sources */,
+				5AB91D1015DA944B00DFFA92 /* MHPerson.m in Sources */,
+				5AB91D1315DA94DA00DFFA92 /* MHAssignment.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB91CEB15DA8EDA00DFFA92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB91D0A15DA917500DFFA92 /* MHGeneratorTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AB91CF615DA8EDA00DFFA92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AB91CCE15DA8EDA00DFFA92 /* SecretSantaIOS */;
+			targetProxy = 5AB91CF515DA8EDA00DFFA92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AB91CDC15DA8EDA00DFFA92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AB91CDD15DA8EDA00DFFA92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5AB91CFA15DA8EDA00DFFA92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AB91CFB15DA8EDA00DFFA92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AB91D0015DA8EDA00DFFA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AB91D0115DA8EDA00DFFA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AB91D0315DA8EDA00DFFA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecretSantaIOS/SecretSantaIOS-Prefix.pch";
+				INFOPLIST_FILE = "SecretSantaIOS/SecretSantaIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5AB91D0415DA8EDA00DFFA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecretSantaIOS/SecretSantaIOS-Prefix.pch";
+				INFOPLIST_FILE = "SecretSantaIOS/SecretSantaIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5AB91D0615DA8EDA00DFFA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecretSantaIOS.app/SecretSantaIOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecretSantaIOS/SecretSantaIOS-Prefix.pch";
+				INFOPLIST_FILE = "SecretSantaIOSTests/SecretSantaIOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5AB91D0715DA8EDA00DFFA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecretSantaIOS.app/SecretSantaIOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecretSantaIOS/SecretSantaIOS-Prefix.pch";
+				INFOPLIST_FILE = "SecretSantaIOSTests/SecretSantaIOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AB91CC915DA8EDA00DFFA92 /* Build configuration list for PBXProject "SecretSantaIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB91D0015DA8EDA00DFFA92 /* Debug */,
+				5AB91D0115DA8EDA00DFFA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AB91D0215DA8EDA00DFFA92 /* Build configuration list for PBXNativeTarget "SecretSantaIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB91D0315DA8EDA00DFFA92 /* Debug */,
+				5AB91D0415DA8EDA00DFFA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AB91D0515DA8EDA00DFFA92 /* Build configuration list for PBXNativeTarget "SecretSantaIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB91D0615DA8EDA00DFFA92 /* Debug */,
+				5AB91D0715DA8EDA00DFFA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AB91CC615DA8EDA00DFFA92 /* Project object */;
+}
