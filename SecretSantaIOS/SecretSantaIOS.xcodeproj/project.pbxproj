@@ -13,26 +13,24 @@
 		5AB91CDE15DA8EDA00DFFA92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AB91CDC15DA8EDA00DFFA92 /* InfoPlist.strings */; };
 		5AB91CE015DA8EDA00DFFA92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB91CDF15DA8EDA00DFFA92 /* main.m */; };
 		5AB91CE415DA8EDA00DFFA92 /* MHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB91CE315DA8EDA00DFFA92 /* MHAppDelegate.m */; };
-		5AB91CE715DA8EDA00DFFA92 /* MHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB91CE615DA8EDA00DFFA92 /* MHViewController.m */; };
-		5AB91CF215DA8EDA00DFFA92 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB91CF115DA8EDA00DFFA92 /* SenTestingKit.framework */; };
-		5AB91CF315DA8EDA00DFFA92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB91CD315DA8EDA00DFFA92 /* UIKit.framework */; };
-		5AB91CF415DA8EDA00DFFA92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB91CD515DA8EDA00DFFA92 /* Foundation.framework */; };
-		5AB91CFC15DA8EDA00DFFA92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AB91CFA15DA8EDA00DFFA92 /* InfoPlist.strings */; };
-		5AB91D0A15DA917500DFFA92 /* MHGeneratorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB91D0915DA917500DFFA92 /* MHGeneratorTest.m */; };
 		5AB91D0D15DA93CE00DFFA92 /* MHGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB91D0C15DA93CE00DFFA92 /* MHGenerator.m */; };
 		5AB91D1015DA944B00DFFA92 /* MHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB91D0F15DA944B00DFFA92 /* MHPerson.m */; };
 		5AB91D1315DA94DA00DFFA92 /* MHAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB91D1215DA94DA00DFFA92 /* MHAssignment.m */; };
+		5AC8ED9B1652F268007C86A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB91CD315DA8EDA00DFFA92 /* UIKit.framework */; };
+		5AC8ED9C1652F268007C86A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB91CD515DA8EDA00DFFA92 /* Foundation.framework */; };
+		5AC8ED9D1652F268007C86A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB91CD715DA8EDA00DFFA92 /* CoreGraphics.framework */; };
+		5AC8EDA31652F269007C86A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AC8EDA11652F269007C86A8 /* InfoPlist.strings */; };
+		5AC8EDA51652F269007C86A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC8EDA41652F269007C86A8 /* main.m */; };
+		5AC8EDAB1652F269007C86A8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AC8EDAA1652F269007C86A8 /* Default.png */; };
+		5AC8EDAD1652F269007C86A8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AC8EDAC1652F269007C86A8 /* Default@2x.png */; };
+		5AC8EDAF1652F269007C86A8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AC8EDAE1652F269007C86A8 /* Default-568h@2x.png */; };
+		5AC8EDC21652F4F1007C86A8 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC8EDC11652F4F1007C86A8 /* GHUnitIOS.framework */; };
+		5AC8EDC41652F741007C86A8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC8EDC31652F741007C86A8 /* QuartzCore.framework */; };
+		5AC8EDC51652F79F007C86A8 /* MHGeneratorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB91D0915DA917500DFFA92 /* MHGeneratorTest.m */; };
+		5AC8EDC61652F82B007C86A8 /* MHGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB91D0C15DA93CE00DFFA92 /* MHGenerator.m */; };
+		5AC8EDC71652F82F007C86A8 /* MHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB91D0F15DA944B00DFFA92 /* MHPerson.m */; };
+		5AC8EDC81652F832007C86A8 /* MHAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB91D1215DA94DA00DFFA92 /* MHAssignment.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5AB91CF515DA8EDA00DFFA92 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5AB91CC615DA8EDA00DFFA92 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5AB91CCE15DA8EDA00DFFA92;
-			remoteInfo = SecretSantaIOS;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5AB91CCF15DA8EDA00DFFA92 /* SecretSantaIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretSantaIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,19 +43,23 @@
 		5AB91CE115DA8EDA00DFFA92 /* SecretSantaIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecretSantaIOS-Prefix.pch"; sourceTree = "<group>"; };
 		5AB91CE215DA8EDA00DFFA92 /* MHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHAppDelegate.h; sourceTree = "<group>"; };
 		5AB91CE315DA8EDA00DFFA92 /* MHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHAppDelegate.m; sourceTree = "<group>"; };
-		5AB91CE515DA8EDA00DFFA92 /* MHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHViewController.h; sourceTree = "<group>"; };
-		5AB91CE615DA8EDA00DFFA92 /* MHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHViewController.m; sourceTree = "<group>"; };
-		5AB91CF015DA8EDA00DFFA92 /* SecretSantaIOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretSantaIOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AB91CF115DA8EDA00DFFA92 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5AB91CF915DA8EDA00DFFA92 /* SecretSantaIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecretSantaIOSTests-Info.plist"; sourceTree = "<group>"; };
-		5AB91CFB15DA8EDA00DFFA92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5AB91D0915DA917500DFFA92 /* MHGeneratorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHGeneratorTest.m; sourceTree = "<group>"; };
+		5AB91D0915DA917500DFFA92 /* MHGeneratorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHGeneratorTest.m; path = SecretSantaIOSTests/MHGeneratorTest.m; sourceTree = SOURCE_ROOT; };
 		5AB91D0B15DA93CE00DFFA92 /* MHGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHGenerator.h; sourceTree = "<group>"; };
 		5AB91D0C15DA93CE00DFFA92 /* MHGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHGenerator.m; sourceTree = "<group>"; };
 		5AB91D0E15DA944B00DFFA92 /* MHPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHPerson.h; sourceTree = "<group>"; };
 		5AB91D0F15DA944B00DFFA92 /* MHPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHPerson.m; sourceTree = "<group>"; };
 		5AB91D1115DA94DA00DFFA92 /* MHAssignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHAssignment.h; sourceTree = "<group>"; };
 		5AB91D1215DA94DA00DFFA92 /* MHAssignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHAssignment.m; sourceTree = "<group>"; };
+		5AC8ED991652F268007C86A8 /* SecretSantaIOSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretSantaIOSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC8EDA01652F269007C86A8 /* SecretSantaIOSTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecretSantaIOSTest-Info.plist"; sourceTree = "<group>"; };
+		5AC8EDA21652F269007C86A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AC8EDA41652F269007C86A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AC8EDA61652F269007C86A8 /* SecretSantaIOSTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecretSantaIOSTest-Prefix.pch"; sourceTree = "<group>"; };
+		5AC8EDAA1652F269007C86A8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5AC8EDAC1652F269007C86A8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5AC8EDAE1652F269007C86A8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5AC8EDC11652F4F1007C86A8 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		5AC8EDC31652F741007C86A8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,13 +73,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5AB91CEC15DA8EDA00DFFA92 /* Frameworks */ = {
+		5AC8ED961652F268007C86A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AB91CF215DA8EDA00DFFA92 /* SenTestingKit.framework in Frameworks */,
-				5AB91CF315DA8EDA00DFFA92 /* UIKit.framework in Frameworks */,
-				5AB91CF415DA8EDA00DFFA92 /* Foundation.framework in Frameworks */,
+				5AC8EDC41652F741007C86A8 /* QuartzCore.framework in Frameworks */,
+				5AC8ED9B1652F268007C86A8 /* UIKit.framework in Frameworks */,
+				5AC8ED9C1652F268007C86A8 /* Foundation.framework in Frameworks */,
+				5AC8ED9D1652F268007C86A8 /* CoreGraphics.framework in Frameworks */,
+				5AC8EDC21652F4F1007C86A8 /* GHUnitIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				5AB91CD915DA8EDA00DFFA92 /* SecretSantaIOS */,
-				5AB91CF715DA8EDA00DFFA92 /* SecretSantaIOSTests */,
+				5AC8ED9E1652F269007C86A8 /* SecretSantaIOSTest */,
 				5AB91CD215DA8EDA00DFFA92 /* Frameworks */,
 				5AB91CD015DA8EDA00DFFA92 /* Products */,
 			);
@@ -98,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				5AB91CCF15DA8EDA00DFFA92 /* SecretSantaIOS.app */,
-				5AB91CF015DA8EDA00DFFA92 /* SecretSantaIOSTests.octest */,
+				5AC8ED991652F268007C86A8 /* SecretSantaIOSTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,10 +110,11 @@
 		5AB91CD215DA8EDA00DFFA92 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5AC8EDC31652F741007C86A8 /* QuartzCore.framework */,
+				5AC8EDC11652F4F1007C86A8 /* GHUnitIOS.framework */,
 				5AB91CD315DA8EDA00DFFA92 /* UIKit.framework */,
 				5AB91CD515DA8EDA00DFFA92 /* Foundation.framework */,
 				5AB91CD715DA8EDA00DFFA92 /* CoreGraphics.framework */,
-				5AB91CF115DA8EDA00DFFA92 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,8 +124,6 @@
 			children = (
 				5AB91CE215DA8EDA00DFFA92 /* MHAppDelegate.h */,
 				5AB91CE315DA8EDA00DFFA92 /* MHAppDelegate.m */,
-				5AB91CE515DA8EDA00DFFA92 /* MHViewController.h */,
-				5AB91CE615DA8EDA00DFFA92 /* MHViewController.m */,
 				5AB91D0B15DA93CE00DFFA92 /* MHGenerator.h */,
 				5AB91D0C15DA93CE00DFFA92 /* MHGenerator.m */,
 				5AB91D0E15DA944B00DFFA92 /* MHPerson.h */,
@@ -143,20 +146,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5AB91CF715DA8EDA00DFFA92 /* SecretSantaIOSTests */ = {
+		5AC8ED9E1652F269007C86A8 /* SecretSantaIOSTest */ = {
 			isa = PBXGroup;
 			children = (
+				5AC8ED9F1652F269007C86A8 /* Supporting Files */,
 				5AB91D0915DA917500DFFA92 /* MHGeneratorTest.m */,
-				5AB91CF815DA8EDA00DFFA92 /* Supporting Files */,
 			);
-			path = SecretSantaIOSTests;
+			path = SecretSantaIOSTest;
 			sourceTree = "<group>";
 		};
-		5AB91CF815DA8EDA00DFFA92 /* Supporting Files */ = {
+		5AC8ED9F1652F269007C86A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5AB91CF915DA8EDA00DFFA92 /* SecretSantaIOSTests-Info.plist */,
-				5AB91CFA15DA8EDA00DFFA92 /* InfoPlist.strings */,
+				5AC8EDA01652F269007C86A8 /* SecretSantaIOSTest-Info.plist */,
+				5AC8EDA11652F269007C86A8 /* InfoPlist.strings */,
+				5AC8EDA41652F269007C86A8 /* main.m */,
+				5AC8EDA61652F269007C86A8 /* SecretSantaIOSTest-Prefix.pch */,
+				5AC8EDAA1652F269007C86A8 /* Default.png */,
+				5AC8EDAC1652F269007C86A8 /* Default@2x.png */,
+				5AC8EDAE1652F269007C86A8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -181,24 +189,22 @@
 			productReference = 5AB91CCF15DA8EDA00DFFA92 /* SecretSantaIOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5AB91CEF15DA8EDA00DFFA92 /* SecretSantaIOSTests */ = {
+		5AC8ED981652F268007C86A8 /* SecretSantaIOSTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AB91D0515DA8EDA00DFFA92 /* Build configuration list for PBXNativeTarget "SecretSantaIOSTests" */;
+			buildConfigurationList = 5AC8EDB21652F269007C86A8 /* Build configuration list for PBXNativeTarget "SecretSantaIOSTest" */;
 			buildPhases = (
-				5AB91CEB15DA8EDA00DFFA92 /* Sources */,
-				5AB91CEC15DA8EDA00DFFA92 /* Frameworks */,
-				5AB91CED15DA8EDA00DFFA92 /* Resources */,
-				5AB91CEE15DA8EDA00DFFA92 /* ShellScript */,
+				5AC8ED951652F268007C86A8 /* Sources */,
+				5AC8ED961652F268007C86A8 /* Frameworks */,
+				5AC8ED971652F268007C86A8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5AB91CF615DA8EDA00DFFA92 /* PBXTargetDependency */,
 			);
-			name = SecretSantaIOSTests;
-			productName = SecretSantaIOSTests;
-			productReference = 5AB91CF015DA8EDA00DFFA92 /* SecretSantaIOSTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			name = SecretSantaIOSTest;
+			productName = SecretSantaIOSTest;
+			productReference = 5AC8ED991652F268007C86A8 /* SecretSantaIOSTest.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -223,7 +229,7 @@
 			projectRoot = "";
 			targets = (
 				5AB91CCE15DA8EDA00DFFA92 /* SecretSantaIOS */,
-				5AB91CEF15DA8EDA00DFFA92 /* SecretSantaIOSTests */,
+				5AC8ED981652F268007C86A8 /* SecretSantaIOSTest */,
 			);
 		};
 /* End PBXProject section */
@@ -237,31 +243,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5AB91CED15DA8EDA00DFFA92 /* Resources */ = {
+		5AC8ED971652F268007C86A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AB91CFC15DA8EDA00DFFA92 /* InfoPlist.strings in Resources */,
+				5AC8EDA31652F269007C86A8 /* InfoPlist.strings in Resources */,
+				5AC8EDAB1652F269007C86A8 /* Default.png in Resources */,
+				5AC8EDAD1652F269007C86A8 /* Default@2x.png in Resources */,
+				5AC8EDAF1652F269007C86A8 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5AB91CEE15DA8EDA00DFFA92 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5AB91CCB15DA8EDA00DFFA92 /* Sources */ = {
@@ -270,30 +263,25 @@
 			files = (
 				5AB91CE015DA8EDA00DFFA92 /* main.m in Sources */,
 				5AB91CE415DA8EDA00DFFA92 /* MHAppDelegate.m in Sources */,
-				5AB91CE715DA8EDA00DFFA92 /* MHViewController.m in Sources */,
 				5AB91D0D15DA93CE00DFFA92 /* MHGenerator.m in Sources */,
 				5AB91D1015DA944B00DFFA92 /* MHPerson.m in Sources */,
 				5AB91D1315DA94DA00DFFA92 /* MHAssignment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5AB91CEB15DA8EDA00DFFA92 /* Sources */ = {
+		5AC8ED951652F268007C86A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AB91D0A15DA917500DFFA92 /* MHGeneratorTest.m in Sources */,
+				5AC8EDA51652F269007C86A8 /* main.m in Sources */,
+				5AC8EDC51652F79F007C86A8 /* MHGeneratorTest.m in Sources */,
+				5AC8EDC61652F82B007C86A8 /* MHGenerator.m in Sources */,
+				5AC8EDC71652F82F007C86A8 /* MHPerson.m in Sources */,
+				5AC8EDC81652F832007C86A8 /* MHAssignment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5AB91CF615DA8EDA00DFFA92 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5AB91CCE15DA8EDA00DFFA92 /* SecretSantaIOS */;
-			targetProxy = 5AB91CF515DA8EDA00DFFA92 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5AB91CDC15DA8EDA00DFFA92 /* InfoPlist.strings */ = {
@@ -304,10 +292,10 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		5AB91CFA15DA8EDA00DFFA92 /* InfoPlist.strings */ = {
+		5AC8EDA11652F269007C86A8 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5AB91CFB15DA8EDA00DFFA92 /* en */,
+				5AC8EDA21652F269007C86A8 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -386,37 +374,52 @@
 			};
 			name = Release;
 		};
-		5AB91D0615DA8EDA00DFFA92 /* Debug */ = {
+		5AC8EDB01652F269007C86A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecretSantaIOS.app/SecretSantaIOS";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SecretSantaIOS/SecretSantaIOS-Prefix.pch";
-				INFOPLIST_FILE = "SecretSantaIOSTests/SecretSantaIOSTests-Info.plist";
+				GCC_PREFIX_HEADER = "SecretSantaIOSTest/SecretSantaIOSTest-Prefix.pch";
+				INFOPLIST_FILE = "SecretSantaIOSTest/SecretSantaIOSTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		5AB91D0715DA8EDA00DFFA92 /* Release */ = {
+		5AC8EDB11652F269007C86A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecretSantaIOS.app/SecretSantaIOS";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SecretSantaIOS/SecretSantaIOS-Prefix.pch";
-				INFOPLIST_FILE = "SecretSantaIOSTests/SecretSantaIOSTests-Info.plist";
+				GCC_PREFIX_HEADER = "SecretSantaIOSTest/SecretSantaIOSTest-Prefix.pch";
+				INFOPLIST_FILE = "SecretSantaIOSTest/SecretSantaIOSTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -439,12 +442,13 @@
 				5AB91D0415DA8EDA00DFFA92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5AB91D0515DA8EDA00DFFA92 /* Build configuration list for PBXNativeTarget "SecretSantaIOSTests" */ = {
+		5AC8EDB21652F269007C86A8 /* Build configuration list for PBXNativeTarget "SecretSantaIOSTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AB91D0615DA8EDA00DFFA92 /* Debug */,
-				5AB91D0715DA8EDA00DFFA92 /* Release */,
+				5AC8EDB01652F269007C86A8 /* Debug */,
+				5AC8EDB11652F269007C86A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

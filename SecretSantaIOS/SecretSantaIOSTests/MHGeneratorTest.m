@@ -1,11 +1,9 @@
-#import <SenTestingKit/SenTestingKit.h>
+#import <GHUnitIOS/GHTestCase.h>
 #import "MHGenerator.h"
 #import "MHPerson.h"
 #import "MHAssignment.h"
 
-@interface MHGeneratorTest : SenTestCase 
-
-
+@interface MHGeneratorTest : GHTestCase
 
 @end
 
@@ -27,13 +25,13 @@
     
     NSArray *assignments = [testObject createAssignmentsForPeople: @[person1, person2]];
     
-    STAssertEquals(assignments.count, (NSUInteger) 2, nil);
+    GHAssertEquals(assignments.count, (NSUInteger) 2, nil);
     MHAssignment *assignment1 = [assignments objectAtIndex:0];
     MHAssignment *assignment2 = [assignments objectAtIndex:1];
-    STAssertEqualObjects(assignment1.giver, person1, nil);
-    STAssertEqualObjects(assignment1.recipient, person2, nil);
-    STAssertEqualObjects(assignment2.giver, person2, nil);
-    STAssertEqualObjects(assignment2.recipient, person1, nil);
+    GHAssertEqualObjects(assignment1.giver, person1, nil);
+    GHAssertEqualObjects(assignment1.recipient, person2, nil);
+    GHAssertEqualObjects(assignment2.giver, person2, nil);
+    GHAssertEqualObjects(assignment2.recipient, person1, nil);
 }
 
 - (void)testWhenSeveralPeopleAreMatchedThenEveryoneIsMatched {
@@ -46,12 +44,12 @@
     NSArray *people = @[person1, person2, person3];
     NSArray *assignments = [testObject createAssignmentsForPeople: people];
     NSArray *givers = [self giversFromAssignments:assignments];
-    STAssertEqualObjects(givers, people, nil);
+    GHAssertEqualObjects(givers, people, nil);
     NSArray *recipients = [self recipientsFromAssignments:assignments];
-    STAssertTrue([recipients containsObject: person1], nil);
-    STAssertTrue([recipients containsObject: person2], nil);
-    STAssertTrue([recipients containsObject: person3], nil);
-    STAssertFalse([self assignmentsContainSamePerson: assignments], nil);
+    GHAssertTrue([recipients containsObject: person1], nil);
+    GHAssertTrue([recipients containsObject: person2], nil);
+    GHAssertTrue([recipients containsObject: person3], nil);
+    GHAssertFalse([self assignmentsContainSamePerson: assignments], nil);
 }
 
 - (void)testWhenPeopleWithTheSameNameAreAddedThenAssignmentsDoNotContainFamilyMembers {
@@ -66,15 +64,15 @@
     NSArray *people = @[person1, person2, person3, person4, person5];
     NSArray *assignments = [testObject createAssignmentsForPeople: people];
     NSArray *givers = [self giversFromAssignments:assignments];
-    STAssertEqualObjects(givers, people, nil);
+    GHAssertEqualObjects(givers, people, nil);
     NSArray *recipients = [self recipientsFromAssignments:assignments];
-    STAssertTrue([recipients containsObject: person1], nil);
-    STAssertTrue([recipients containsObject: person2], nil);
-    STAssertTrue([recipients containsObject: person3], nil);
-    STAssertTrue([recipients containsObject: person4], nil);
-    STAssertTrue([recipients containsObject: person5], nil);
-    STAssertFalse([self assignmentsContainSamePerson: assignments], nil);
-    STAssertFalse([self assignmentsContainTwoPeopleFromTheSameFamily: assignments], nil);
+    GHAssertTrue([recipients containsObject: person1], nil);
+    GHAssertTrue([recipients containsObject: person2], nil);
+    GHAssertTrue([recipients containsObject: person3], nil);
+    GHAssertTrue([recipients containsObject: person4], nil);
+    GHAssertTrue([recipients containsObject: person5], nil);
+    GHAssertFalse([self assignmentsContainSamePerson: assignments], nil);
+    GHAssertFalse([self assignmentsContainTwoPeopleFromTheSameFamily: assignments], nil);
 }
 
 - (void)testWhenOnlyOnePersonExistsThenNilIsReturned {
@@ -85,7 +83,7 @@
     NSArray *people = @[person1];
     NSArray *assignments = [testObject createAssignmentsForPeople: people];
     
-    STAssertNil(assignments, nil);
+    GHAssertNil(assignments, nil);
 }
 
 - (void)testWhenNoMatchesExistBecauseOfTooManyOfOneFamilyThenNilIsReturned {
@@ -100,7 +98,7 @@
     NSArray *people = @[person1, person2, person3, person4, person5];
     NSArray *assignments = [testObject createAssignmentsForPeople: people];
     
-    STAssertNil(assignments, nil);
+    GHAssertNil(assignments, nil);
 }
 
 - (void)testAllMatchesCanBeCreated {
@@ -122,7 +120,7 @@
         NSArray *recipients = [self recipientsFromAssignments:assignments];
         found = [recipients isEqualToArray:expectedRecipients];
     }
-    STAssertTrue(found, nil);
+    GHAssertTrue(found, nil);
 }
 
 - (void)testGiversAreReturnedInAlphabeticalOrder {
@@ -138,7 +136,7 @@
     NSArray *expectedGivers = @[person5, person3, person2, person1, person4];
     NSArray *assignments = [testObject createAssignmentsForPeople: people];
     NSArray *givers = [self giversFromAssignments:assignments];
-    STAssertTrue([expectedGivers isEqualToArray:givers], nil);
+    GHAssertTrue([expectedGivers isEqualToArray:givers], nil);
 }
 
 - (NSArray *)giversFromAssignments: (NSArray *)assignments {
@@ -172,7 +170,5 @@
     }
     return sameFamily;
 }
-
-
 
 @end
